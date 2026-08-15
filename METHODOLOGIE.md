@@ -43,6 +43,12 @@ Les entrées à accès payant sont inscrites en deux temps.
 ledger_id|date_publication|type|actif|ticker|identifiant|sens|verdict|prix_reference|devise|horizon|benchmark|benchmark_reference
 ```
 
+**Encodage exact** — la chaîne est en UTF-8, sans saut de ligne final, sans espace autour des séparateurs. Le hash est exprimé en hexadécimal minuscule, 64 caractères. Toute vérification qui inclurait un saut de ligne terminal produirait un résultat différent et invalide.
+
+```bash
+echo -n "AEQ-0002|2026-09-05T09:00:00Z|equity|..." | shasum -a 256
+```
+
 **À la divulgation** — J+90 après publication, ou à la clôture si elle intervient avant. Les champs sont renseignés. Quiconque recalcule le SHA-256 de la ligne divulguée obtient le hash inscrit à T0.
 
 Ce mécanisme rend impossible de modifier, remplacer ou dissimuler une recommandation payante après coup, tout en préservant sa valeur commerciale jusqu'à la divulgation. Le hash prouve l'antériorité ; la divulgation prouve le contenu.
@@ -165,3 +171,17 @@ Les recommandations inscrites à ce registre sont des recommandations d'investis
 Les performances passées ne préjugent pas des performances futures. Tout investissement comporte un risque de perte en capital pouvant aller jusqu'à la totalité du montant investi.
 
 Chaque rapport comporte une déclaration d'intérêt indiquant si l'auteur détient une position sur l'actif concerné à la date de publication.
+
+---
+
+## 11. Legal notice (English)
+
+**Nature** — The recommendations recorded in this register are general investment recommendations within the meaning of Article 3(1)(35) of Regulation (EU) No 596/2014 (Market Abuse Regulation) and Commission Delegated Regulation (EU) 2016/958. They do not constitute personalised investment advice, investment research within the meaning of MiFID II, a solicitation, or an offer to buy or sell any financial instrument.
+
+**Producer** — [nom légal], trading as Aequitas Intelligence, [forme juridique, pays]. Not authorised as an investment firm or investment adviser.
+
+**Risk** — Past performance is not a reliable indicator of future results. All investment carries a risk of capital loss, which may extend to the entire amount invested. Recommendations are not tailored to the financial situation, investment objectives or risk tolerance of any individual recipient.
+
+**Conflicts of interest** — Each report discloses whether the author holds a position in the instrument concerned at the date of publication. No compensation is received from issuers or related parties in connection with these recommendations.
+
+**Timing** — The date and time of production and of first dissemination of each recommendation are recorded in this register and evidenced by the repository commit history.

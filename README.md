@@ -6,9 +6,9 @@ Journal horodaté et append-only de **toutes** les recommandations d'investissem
 
 | Fichier | Contenu |
 |---|---|
-| [LEDGER.csv](LEDGER.csv) | Le registre |
-| [METHODOLOGIE.md](METHODOLOGIE.md) | Périmètre, règles, dictionnaire des colonnes, calcul de performance |
-| [rapports/](rapports/) | Rapports en accès libre |
+| [`LEDGER.csv`](LEDGER.csv) | Le registre |
+| [`METHODOLOGIE.md`](METHODOLOGIE.md) | Périmètre, règles, dictionnaire des colonnes, calcul de performance |
+| [`rapports/`](rapports/) | Rapports en accès libre |
 
 ## Principe
 
@@ -32,4 +32,12 @@ Ce n'est pas un relevé de portefeuille personnel, ni un service de signaux, ni 
 
 Recommandations générales au sens du règlement (UE) n° 596/2014 (MAR). Les performances passées ne préjugent pas des performances futures. Risque de perte en capital pouvant aller jusqu'à la totalité du montant investi.
 
-Détail complet dans [METHODOLOGIE.md](METHODOLOGIE.md).
+Détail complet dans [`METHODOLOGIE.md`](METHODOLOGIE.md).
+
+---
+
+## Legal notice
+
+General investment recommendations within the meaning of Regulation (EU) No 596/2014 (MAR). Not personalised investment advice, not an offer or solicitation. Past performance is not a reliable indicator of future results. Capital at risk — you may lose the entire amount invested.
+
+Full notice in [`METHODOLOGIE.md`](METHODOLOGIE.md), section 11.

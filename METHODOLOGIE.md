@@ -178,7 +178,7 @@ Chaque rapport comporte une déclaration d'intérêt indiquant si l'auteur déti
 
 **Nature** — The recommendations recorded in this register are general investment recommendations within the meaning of Article 3(1)(35) of Regulation (EU) No 596/2014 (Market Abuse Regulation) and Commission Delegated Regulation (EU) 2016/958. They do not constitute personalised investment advice, investment research within the meaning of MiFID II, a solicitation, or an offer to buy or sell any financial instrument.
 
-**Producer** — [nom légal], trading as Aequitas Intelligence, [forme juridique, pays]. Not authorised as an investment firm or investment adviser.
+**Producer** — [Lorenzo REUILLE], trading as Aequitas Intelligence, [sole proprietorship (EI), France]. Not authorised as an investment firm or investment adviser.
 
 **Risk** — Past performance is not a reliable indicator of future results. All investment carries a risk of capital loss, which may extend to the entire amount invested. Recommendations are not tailored to the financial situation, investment objectives or risk tolerance of any individual recipient.
 
